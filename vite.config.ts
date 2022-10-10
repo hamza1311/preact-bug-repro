@@ -13,12 +13,12 @@ export default defineConfig({
     rollupOptions: {
       output: {
         globals: {
-          // '@emotion/react': 'emotionReact',
+          '@emotion/react': 'emotionReact',
           preact: 'preact'
         }
       },
       external: [
-        // '@emotion/react',
+        '@emotion/react',
         'preact'
       ]
     }
